@@ -1,0 +1,118 @@
+.Mycourse {
+  display: flex;
+  /* margin-left: 236.32px; */
+  margin-top: 30px;
+}
+
+.Mycourse-left {
+  display: flex;
+  align-items: center;
+
+  width: 500.26px;
+  height: 80px;
+  /* left: 236px; */
+  top: 239.34px;
+  margin-right: 20px;
+
+  /* Grey */
+
+  background: #f5f5f7;
+  border-radius: 14px;
+}
+
+.Mycourse-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  margin-left: 8px;
+  /* margin-top: 8px; */
+
+  background: #ffffff;
+  border-radius: 12px;
+}
+
+.Mycourse-text1 {
+  font-family: Baloo Bhai;
+  font-size: 16px;
+  font-style: normal;
+  /* font-weight: 400; */
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  /* color: #0c0b0b; */
+}
+
+.Mycourse-texts {
+  /* margin-top: 20px; */
+  margin-left: 20px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.Mycourse-text2 {
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.Mycourse-texts h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.Mycourse-continue-button {
+  width: 120px;
+  height: 40px;
+  left: 592.43px;
+  top: 259.29px;
+  color: white;
+  /* Black */
+
+  background: #0c0b0b;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.Mycourse-continue-button:focus {
+  outline: 0;
+}
+
+.Mycourse-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Mycourse-progress {
+  margin-right: 40px;
+}
+
+.left-arrow,
+.right-arrow {
+  width: 40px;
+  height: 40px;
+  left: 799.9px;
+  top: 261.17px;
+
+  /* Black */
+
+  border: 2px solid #0c0b0b;
+  box-sizing: border-box;
+  border-radius: 100px;
+  cursor: pointer;
+  /* transform: rotate(90deg); */
+}
+
+.Mycourse-right button {
+  border: none;
+  background-color: white;
+}
+.Mycourse-right button:focus {
+  outline: 0;
+}

@@ -1,0 +1,38 @@
+.Stats {
+  display: flex;
+}
+
+.Stats p {
+  max-width: min-content;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #0c0b0b;
+  width: 90px;
+}
+
+.Stats h1 {
+  font-family: Baloo Bhai;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+}
+
+.Stats-completed,
+.Stats-inprogress {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 208px;
+  height: 96.33px;
+
+  /* Grey */
+  margin-right: 20px;
+  background: #f5f5f7;
+  border-radius: 14px;
+}
+
+.Stats-inprogress p {
+  margin-left: 8px;
+}

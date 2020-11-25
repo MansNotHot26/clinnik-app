@@ -1,0 +1,78 @@
+.YourStats {
+  margin-top: 30px;
+}
+
+.YourStats-center {
+  display: flex;
+  justify-content: space-between;
+}
+
+.YourStats-center button {
+  border: 0;
+  outline: 0;
+  background-color: white;
+  font-family: Baloo Bhai;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  cursor: pointer;
+  /* identical to box height */
+
+  /* Black */
+  opacity: 0.3;
+  color: #0c0b0b;
+}
+
+.YourStats-Calender {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #f5f5f7;
+  background-color: #f5f5f7;
+  border-radius: 8px;
+  width: 100px;
+  height: 32px;
+  margin-right: 20px;
+}
+
+.arrow-down {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 2.5px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  margin-left: 5px;
+  margin-bottom: 1px;
+}
+
+.YourStats-Calender button {
+  background-color: #f5f5f7;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+  cursor: pointer;
+  opacity: 1;
+  color: #0c0b0b;
+}
+
+.YourStats-center-tabs {
+  margin-bottom: 30px;
+}
+
+.YourStats-bottom {
+  width: 450px;
+}
+
+.dropdown {
+  margin: auto 10px;
+}
+
+.active {
+  opacity: 1 !important;
+  color: #0c0b0b !important;
+  font-weight: bold !important;
+}

@@ -1,0 +1,95 @@
+.Course {
+  display: flex;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: space-evenly;
+
+  width: 620px;
+  height: 80px;
+ 
+  margin-right: 20px;
+
+  /* Grey */
+
+  background: #f5f5f7;
+  border-radius: 14px;
+}
+
+.Course-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  margin-left: 8px;
+  /* margin-top: 8px; */
+
+  background: #ffffff;
+  border-radius: 12px;
+}
+
+.Course-text1 {
+  font-family: Baloo Bhai;
+  font-size: 16px;
+  font-style: normal;
+  /* font-weight: 400; */
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  /* color: #0c0b0b; */
+}
+
+.Course-texts {
+  /* margin-top: 20px; */
+  margin-left: 20px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.Course-text2 {
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.Course-texts h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.Course-view-button {
+  width: 120px;
+  height: 40px;
+  left: 712.19px;
+  top: 469.58px;
+  background-color: white;
+  border: 2px solid #0c0b0b;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.Course-view-button:focus {
+  outline: 0;
+}
+
+.Course-rating {
+  margin: auto 20px;
+}
+
+.Course-duration {
+  display: flex;
+  margin: auto 20px;
+}
+
+.Course span {
+  margin-left: 5px;
+}

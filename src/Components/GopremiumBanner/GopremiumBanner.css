@@ -1,0 +1,58 @@
+.Gopremiumbanner {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-evenly;
+  width: 440px;
+  height: 193px;
+  margin-top: 50px;
+
+  /* Grey */
+
+  background: #f5f5f7;
+  border-radius: 14px;
+}
+
+.Gopremiumbanner-text {
+  width: 180px;
+  width: 179px;
+  height: 48px;
+  left: 943.75px;
+  top: 748px;
+
+  /* B1 */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #0c0b0b;
+}
+
+.Gopremiumbanner-header {
+  width: 176px;
+  height: 38px;
+  font-family: Baloo Bhai;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 38px;
+  color: #0c0b0b;
+}
+
+.Gopremiumbanner-button {
+  width: 120px;
+  height: 40px;
+  left: 943.75px;
+  top: 820.22px;
+  background: #0c0b0b;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+.Gopremiumbanner-button:focus {
+  outline: 0;
+}
+.Gopremiumbanner-right {
+  align-self: center;
+}

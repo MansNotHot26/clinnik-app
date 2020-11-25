@@ -1,0 +1,23 @@
+.Dashboard {
+    display: flex;
+  }
+  
+  .Dashboard-left {
+    margin: 24px 14px;
+  }
+  
+  .Dashboard-center {
+    display: flex;
+    flex-direction: column;
+    margin-left: 42px;
+    /* align-items: center;
+    justify-content: center; */
+  }
+  
+  .Dashboard-right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 55px;
+    margin-left: 33px;
+  }
+  

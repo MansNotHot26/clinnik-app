@@ -1,0 +1,8 @@
+.Navigation {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.Navigation-notification {
+  margin-right: 20px;
+}
